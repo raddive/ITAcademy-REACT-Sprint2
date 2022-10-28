@@ -8385,3 +8385,17 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+.nav-link.active {
+  color: orange;
+  border-top: none;
+  border-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 30%, orange 30%, orange 70%, rgba(0, 0, 0, 0) 70%);
+  border-image-slice: 1; }
+
+.nav-link {
+  color: #adb5bd;
+  border-bottom: 1pt solid #dee2e6; }
+
+@media (max-width: 991.98px) {
+  .nav-link {
+    border-top: 1pt solid #dee2e6; } }

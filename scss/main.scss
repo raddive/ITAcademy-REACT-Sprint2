@@ -4,3 +4,23 @@ $secondary :#FA5959;
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.nav-link.active {
+    color: $primary;
+    border-top:none;
+    border-image: linear-gradient(90deg, rgba(0,0,0,0) 30%, rgba(255,165,0,1) 30%, rgba(255,165,0,1) 70%, rgba(0,0,0,0) 70%);
+    border-image-slice: 1;
+}
+  
+
+.nav-link {
+    color: $gray-500;
+    border-bottom: 1pt solid $nav-tabs-border-color; 
+}
+
+@include media-breakpoint-down(lg) {
+    .nav-link {
+        border-top: 1pt solid $nav-tabs-border-color; 
+    }
+}
