@@ -6,6 +6,25 @@ $secondary :#FA5959;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+
+.mycard:nth-child(1)
+{
+    margin-top: 2%;
+    height: max-content;
+}
+
+.mycard:nth-child(2)
+{
+    margin-top: 4%;
+    height: max-content;
+}
+
+.mycard:nth-child(3)
+{
+    margin-top: 6%;
+    height: max-content;
+}
+
 #twitter-link{
     background:url("../images/icon-twitter.svg") center no-repeat; 
 }
