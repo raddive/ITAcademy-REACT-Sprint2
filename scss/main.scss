@@ -6,6 +6,63 @@ $secondary :#FA5959;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+#twitter-link{
+    background:url("../images/icon-twitter.svg") center no-repeat; 
+}
+
+
+#twitter-link:hover{
+    background-image: url("../images/icon-twitter-red.svg");
+}
+
+#facebook-link{
+    background:url("../images/icon-facebook.svg") center no-repeat; 
+}
+
+#facebook-link:hover{
+    background-image: url("../images/icon-facebook-red.svg");
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color: $danger;
+}
+
+
+.btn:hover{
+    color: $primary;
+    background-color: $light;
+    border:1pt solid $primary;
+
+}
+
+.btn-danger:hover{
+    color: $danger;
+    background-color: $light;
+    border:1pt solid $danger;
+
+}
+
+.btn-light:hover{
+    color: $dark;
+    background-color: $light;
+    border:1pt solid $dark;
+
+}
+
+.accordion-button:hover{
+    color:$primary;
+}
+
+.nav-link:hover{
+    color: $primary;
+    
+}
+
 .nav-link.active {
     color: $primary;
     border-top:none;

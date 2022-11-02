@@ -8386,6 +8386,46 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+#twitter-link {
+  background: url("../images/icon-twitter.svg") center no-repeat; }
+
+#twitter-link:hover {
+  background-image: url("../images/icon-twitter-red.svg"); }
+
+#facebook-link {
+  background: url("../images/icon-facebook.svg") center no-repeat; }
+
+#facebook-link:hover {
+  background-image: url("../images/icon-facebook-red.svg"); }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  color: #dc3545; }
+
+.btn:hover {
+  color: orange;
+  background-color: #f8f9fa;
+  border: 1pt solid orange; }
+
+.btn-danger:hover {
+  color: #dc3545;
+  background-color: #f8f9fa;
+  border: 1pt solid #dc3545; }
+
+.btn-light:hover {
+  color: #212529;
+  background-color: #f8f9fa;
+  border: 1pt solid #212529; }
+
+.accordion-button:hover {
+  color: orange; }
+
+.nav-link:hover {
+  color: orange; }
+
 .nav-link.active {
   color: orange;
   border-top: none;
