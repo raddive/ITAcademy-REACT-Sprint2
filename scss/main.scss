@@ -6,6 +6,18 @@ $secondary :#FA5959;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+.mycard {
+    flex: 0 0 auto;
+    width: 83.33333%;
+    @media (min-width: 992px)
+    {
+        flex: 0 0 auto;
+        width: 16.66667%;
+    }
+    box-shadow: 0 0.5rem 1rem rgba(0,0, 0, 0.15) !important;
+    padding-bottom: 1rem !important;
+    --bs-border-width: 1px;
+}
 
 .mycard:nth-child(1)
 {

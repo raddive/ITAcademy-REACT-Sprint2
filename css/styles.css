@@ -8386,6 +8386,17 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.mycard {
+  flex: 0 0 auto;
+  width: 83.33333%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  padding-bottom: 1rem !important;
+  --bs-border-width: 1px; }
+  @media (min-width: 992px) {
+    .mycard {
+      flex: 0 0 auto;
+      width: 16.66667%; } }
+
 .mycard:nth-child(1) {
   margin-top: 2%;
   height: max-content; }
